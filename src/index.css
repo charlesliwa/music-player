@@ -154,7 +154,7 @@ body {
   -webkit-appearance: none;
   width: 16px;
   height: 16px;
-  background: #10b981;
+  background: #055096;
   border-radius: 50%;
   cursor: pointer;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
@@ -172,7 +172,7 @@ body {
 .progress-bar::-moz-range-thumb {
   width: 16px;
   height: 16px;
-  background: #10b981;
+  background: #055096;
   border-radius: 50%;
   cursor: pointer;
   border: none;
@@ -183,8 +183,8 @@ body {
 .progress-bar {
   background: linear-gradient(
     to right,
-    #10b981 0%,
-    #10b981 var(--progress, 0%),
+    #055096 0%,
+    #055096 var(--progress, 0%),
     rgba(255, 255, 255, 0.2) var(--progress, 0%),
     rgba(255, 255, 255, 0.2) 100%
   );
@@ -222,13 +222,13 @@ body {
   width: 60px;
   height: 60px;
   font-size: 1.5rem;
-  background: #10b981;
+  background: #055096;
 }
 
 .play-btn:hover {
   transform: scale(1.1);
   box-shadow: 0 4px 20px rgba(16, 185, 129, 0.4);
-  background: #059669;
+  background: #055096;
 }
 
 .volume-container {
@@ -256,7 +256,7 @@ body {
   -webkit-appearance: none;
   width: 12px;
   height: 12px;
-  background: #10b981;
+  background: #055096;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -264,7 +264,7 @@ body {
 .volume-bar::-moz-range-thumb {
   width: 12px;
   height: 12px;
-  background: #10b981;
+  background: #055096;
   border-radius: 50%;
   cursor: pointer;
   border: none;
@@ -405,7 +405,7 @@ body {
 .brand-link {
   text-decoration: none;
   color: white;
-  background: linear-gradient(45deg, #10b981, #059669, #047857);
+  background: linear-gradient(45deg, #10a0b9, #057796, #044a78);
   background-size: 200% 200%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -479,8 +479,8 @@ body {
     rgba(16, 185, 129, 0.2),
     rgba(5, 150, 105, 0.2)
   );
-  border-color: rgba(16, 185, 129, 0.5);
-  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.2);
+  border-color: rgba(16, 148, 185, 0.5);
+  box-shadow: 0 4px 15px rgba(16, 140, 185, 0.2);
 }
 
 .song-info {
@@ -557,7 +557,7 @@ body {
 
 .create-btn {
   padding: 0.75rem 1.5rem;
-  background-color: #10b981;
+  background-color: #055096;
   border: none;
   border-radius: 8px;
   color: white;
@@ -568,8 +568,8 @@ body {
 
 .create-btn:hover {
   transform: scale(1.05);
-  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
-  background-color: #059669;
+  box-shadow: 0 4px 15px rgba(16, 126, 185, 0.3);
+  background-color: #055096;
 }
 
 .playlists-list {
@@ -617,14 +617,14 @@ body {
 }
 
 .add-song-btn:hover {
-  background: rgba(16, 185, 129, 0.3);
+  background: rgba(16, 134, 185, 0.3);
   transform: scale(1.05);
 }
 
 .delete-playlist-btn {
   padding: 0.5rem 1rem;
-  background: rgba(16, 185, 129, 0.2);
-  border: 1px solid rgba(16, 185, 129, 0.5);
+  background: rgba(16, 157, 185, 0.2);
+  border: 1px solid rgba(16, 179, 185, 0.5);
   border-radius: 6px;
   color: white;
   font-size: 0.9rem;
@@ -633,7 +633,7 @@ body {
 }
 
 .delete-playlist-btn:hover {
-  background: rgba(16, 185, 129, 0.3);
+  background: rgba(16, 171, 185, 0.3);
   transform: scale(1.05);
 }
 
@@ -748,7 +748,7 @@ body {
     rgba(16, 185, 129, 0.2),
     rgba(5, 150, 105, 0.2)
   );
-  border-color: rgba(16, 185, 129, 0.5);
+  border-color: rgba(16, 160, 185, 0.5);
 }
 
 /* Modal Styles */
